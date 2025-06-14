@@ -89,9 +89,7 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(List.of(
                 "http://localhost:[*]",
                 "http://127.0.0.1:[*]",
-                "https://pasha1932.github.io/",
-                "http://localhost:8080",
-                "https://backend-api.space"
+                "https://charity-app-frontend.onrender.com"            
         ));
         configuration.setAllowedMethods(
                 Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS", "HEAD"));
