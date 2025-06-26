@@ -57,7 +57,6 @@ public class SecurityConfig {
                                         "/public/**",
                                         "/")
                                 .permitAll()
-                                .requestMatchers("/admin/**").hasRole("SUPER_ADMIN")
                                 .anyRequest()
                                 .authenticated()
                 )
